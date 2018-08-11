@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_quiz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@android:color/holo_blue_dark"
+    tools:context="com.tech.hawi.quiztest.MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnQuizA"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="87dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/btnQuizB"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="87dp"
+        android:layout_toRightOf="@id/btnQuizA"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/btnQuizC"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="87dp"
+        android:layout_toRightOf="@id/btnQuizB"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/btnQuizD"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="28dp"
+        android:layout_toEndOf="@id/btnQuizC"
+        android:layout_toRightOf="@id/btnQuizC"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/btnQuizE"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/btnQuizF"
+        android:layout_alignLeft="@id/btnQuizD"
+        android:layout_marginLeft="37dp"
+        android:layout_marginStart="37dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/btnQuizF"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignTop="@id/btnQuizD"
+        android:layout_marginLeft="16dp"
+        android:layout_toEndOf="@id/btnQuizD"
+        android:layout_toRightOf="@id/btnQuizD"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:text="Score"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout>
+
